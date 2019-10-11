@@ -2429,6 +2429,7 @@ public class Smoketest extends Baseclass {
 	public  void EstimateStatusCheck_1() throws InterruptedException, IOException
 	{
 		System.out.println("Rathiga");
+		System.out.println("lusu");
 	}
 	
 }
