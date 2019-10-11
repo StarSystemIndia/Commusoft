@@ -2425,4 +2425,10 @@ public class Smoketest extends Baseclass {
 	
 	
 }
+	@Test(priority = 60)
+	public  void EstimateStatusCheck_1() throws InterruptedException, IOException
+	{
+		System.out.println("Rathiga");
+	}
+	
 }
