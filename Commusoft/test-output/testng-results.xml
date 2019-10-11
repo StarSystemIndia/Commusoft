@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="61" passed="59">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1649014" started-at="2019-10-11T12:00:30Z" finished-at="2019-10-11T12:27:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1649014" started-at="2019-10-11T12:00:30Z" finished-at="2019-10-11T12:27:59Z">
+      <class name="Testcases.Smoketest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="setup" is-config="true" duration-ms="251" started-at="2019-10-11T17:30:29Z" finished-at="2019-10-11T17:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startup()[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="startup" is-config="true" duration-ms="11979" started-at="2019-10-11T17:30:30Z" finished-at="2019-10-11T17:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="login" duration-ms="10592" started-at="2019-10-11T17:30:42Z" finished-at="2019-10-11T17:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="500" started-at="2019-10-11T17:30:52Z" finished-at="2019-10-11T17:30:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Smoketest.login()[pri:0, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Create_customer()[pri:1, instance:Testcases.Smoketest@66a3ffec]" name="Create_customer" duration-ms="17510" started-at="2019-10-11T17:30:53Z" finished-at="2019-10-11T17:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_customer -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="91" started-at="2019-10-11T17:31:10Z" finished-at="2019-10-11T17:31:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_customer status=SUCCESS method=Smoketest.Create_customer()[pri:1, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Edit_customer()[pri:2, instance:Testcases.Smoketest@66a3ffec]" name="Edit_customer" duration-ms="11858" started-at="2019-10-11T17:31:10Z" finished-at="2019-10-11T17:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_customer -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="87" started-at="2019-10-11T17:31:22Z" finished-at="2019-10-11T17:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_customer status=SUCCESS method=Smoketest.Edit_customer()[pri:2, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Create_job()[pri:3, instance:Testcases.Smoketest@66a3ffec]" name="Create_job" duration-ms="33176" started-at="2019-10-11T17:31:22Z" finished-at="2019-10-11T17:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_job -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="86" started-at="2019-10-11T17:31:55Z" finished-at="2019-10-11T17:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_job status=SUCCESS method=Smoketest.Create_job()[pri:3, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Edit_job()[pri:4, instance:Testcases.Smoketest@66a3ffec]" name="Edit_job" duration-ms="23006" started-at="2019-10-11T17:31:55Z" finished-at="2019-10-11T17:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_job -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="71" started-at="2019-10-11T17:32:18Z" finished-at="2019-10-11T17:32:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_job status=SUCCESS method=Smoketest.Edit_job()[pri:4, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="OfficeTask()[pri:5, instance:Testcases.Smoketest@66a3ffec]" name="OfficeTask" duration-ms="16308" started-at="2019-10-11T17:32:19Z" finished-at="2019-10-11T17:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OfficeTask -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="101" started-at="2019-10-11T17:32:35Z" finished-at="2019-10-11T17:32:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OfficeTask status=SUCCESS method=Smoketest.OfficeTask()[pri:5, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="JobReminder()[pri:6, instance:Testcases.Smoketest@66a3ffec]" name="JobReminder" duration-ms="13476" started-at="2019-10-11T17:32:35Z" finished-at="2019-10-11T17:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobReminder -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="73" started-at="2019-10-11T17:32:48Z" finished-at="2019-10-11T17:32:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobReminder status=SUCCESS method=Smoketest.JobReminder()[pri:6, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="EditJobReminder()[pri:7, instance:Testcases.Smoketest@66a3ffec]" name="EditJobReminder" duration-ms="10282" started-at="2019-10-11T17:32:49Z" finished-at="2019-10-11T17:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditJobReminder -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="88" started-at="2019-10-11T17:32:59Z" finished-at="2019-10-11T17:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditJobReminder status=SUCCESS method=Smoketest.EditJobReminder()[pri:7, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="FAIL" signature="AddAttachFile()[pri:8, instance:Testcases.Smoketest@66a3ffec]" name="AddAttachFile" duration-ms="18168" started-at="2019-10-11T17:32:59Z" finished-at="2019-10-11T17:33:17Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Cannot run program "D:/image.exe": CreateProcess error=2, The system cannot find the file specified]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Cannot run program "D:/image.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at Testcases.Smoketest.AddAttachFile(Smoketest.java:279)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:386)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAttachFile -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="1202" started-at="2019-10-11T17:33:17Z" finished-at="2019-10-11T17:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddAttachFile status=FAILURE method=Smoketest.AddAttachFile()[pri:8, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Addinvoice_NoBreakDown()[pri:9, instance:Testcases.Smoketest@66a3ffec]" name="Addinvoice_NoBreakDown" duration-ms="14883" started-at="2019-10-11T17:33:18Z" finished-at="2019-10-11T17:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="68" started-at="2019-10-11T17:33:33Z" finished-at="2019-10-11T17:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_NoBreakDown status=SUCCESS method=Smoketest.Addinvoice_NoBreakDown()[pri:9, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Editinvoice_NoBreakDown()[pri:10, instance:Testcases.Smoketest@66a3ffec]" name="Editinvoice_NoBreakDown" duration-ms="18729" started-at="2019-10-11T17:33:33Z" finished-at="2019-10-11T17:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="78" started-at="2019-10-11T17:33:52Z" finished-at="2019-10-11T17:33:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Editinvoice_NoBreakDown status=SUCCESS method=Smoketest.Editinvoice_NoBreakDown()[pri:10, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="View_NoBreakDown()[pri:11, instance:Testcases.Smoketest@66a3ffec]" name="View_NoBreakDown" duration-ms="14797" started-at="2019-10-11T17:33:52Z" finished-at="2019-10-11T17:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="129" started-at="2019-10-11T17:34:07Z" finished-at="2019-10-11T17:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=View_NoBreakDown status=SUCCESS method=Smoketest.View_NoBreakDown()[pri:11, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Payment_NoBreakDown()[pri:12, instance:Testcases.Smoketest@66a3ffec]" name="Payment_NoBreakDown" duration-ms="8971" started-at="2019-10-11T17:34:07Z" finished-at="2019-10-11T17:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="81" started-at="2019-10-11T17:34:16Z" finished-at="2019-10-11T17:34:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment_NoBreakDown status=SUCCESS method=Smoketest.Payment_NoBreakDown()[pri:12, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Addinvoice_Breakdownbycategory()[pri:13, instance:Testcases.Smoketest@66a3ffec]" name="Addinvoice_Breakdownbycategory" duration-ms="31507" started-at="2019-10-11T17:34:16Z" finished-at="2019-10-11T17:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="86" started-at="2019-10-11T17:34:48Z" finished-at="2019-10-11T17:34:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.Addinvoice_Breakdownbycategory()[pri:13, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Editinvoice_Breakdownbycategory()[pri:14, instance:Testcases.Smoketest@66a3ffec]" name="Editinvoice_Breakdownbycategory" duration-ms="14345" started-at="2019-10-11T17:34:48Z" finished-at="2019-10-11T17:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="84" started-at="2019-10-11T17:35:02Z" finished-at="2019-10-11T17:35:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Editinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.Editinvoice_Breakdownbycategory()[pri:14, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Payment_Breakdownbycategory()[pri:15, instance:Testcases.Smoketest@66a3ffec]" name="Payment_Breakdownbycategory" duration-ms="8883" started-at="2019-10-11T17:35:02Z" finished-at="2019-10-11T17:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Breakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="84" started-at="2019-10-11T17:35:11Z" finished-at="2019-10-11T17:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment_Breakdownbycategory status=SUCCESS method=Smoketest.Payment_Breakdownbycategory()[pri:15, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Addinvoice_Fullbreakdown()[pri:16, instance:Testcases.Smoketest@66a3ffec]" name="Addinvoice_Fullbreakdown" duration-ms="32517" started-at="2019-10-11T17:35:11Z" finished-at="2019-10-11T17:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_Fullbreakdown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="76" started-at="2019-10-11T17:35:44Z" finished-at="2019-10-11T17:35:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_Fullbreakdown status=SUCCESS method=Smoketest.Addinvoice_Fullbreakdown()[pri:16, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Payment_Fullbreakdown()[pri:17, instance:Testcases.Smoketest@66a3ffec]" name="Payment_Fullbreakdown" duration-ms="12421" started-at="2019-10-11T17:35:44Z" finished-at="2019-10-11T17:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Fullbreakdown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="82" started-at="2019-10-11T17:35:56Z" finished-at="2019-10-11T17:35:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment_Fullbreakdown status=SUCCESS method=Smoketest.Payment_Fullbreakdown()[pri:17, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Addinvoice_Fullbreakdownbycategory()[pri:18, instance:Testcases.Smoketest@66a3ffec]" name="Addinvoice_Fullbreakdownbycategory" duration-ms="31711" started-at="2019-10-11T17:35:56Z" finished-at="2019-10-11T17:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_Fullbreakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="69" started-at="2019-10-11T17:36:28Z" finished-at="2019-10-11T17:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_Fullbreakdownbycategory status=SUCCESS method=Smoketest.Addinvoice_Fullbreakdownbycategory()[pri:18, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="RejectEstimate()[pri:18, instance:Testcases.Smoketest@66a3ffec]" name="RejectEstimate" duration-ms="71230" started-at="2019-10-11T17:36:28Z" finished-at="2019-10-11T17:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectEstimate -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="98" started-at="2019-10-11T17:37:39Z" finished-at="2019-10-11T17:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RejectEstimate status=SUCCESS method=Smoketest.RejectEstimate()[pri:18, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ConvertEstimateToJob()[pri:19, instance:Testcases.Smoketest@66a3ffec]" name="ConvertEstimateToJob" duration-ms="67205" started-at="2019-10-11T17:37:39Z" finished-at="2019-10-11T17:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConvertEstimateToJob -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="78" started-at="2019-10-11T17:38:46Z" finished-at="2019-10-11T17:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConvertEstimateToJob status=SUCCESS method=Smoketest.ConvertEstimateToJob()[pri:19, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="CreateWorkAddress()[pri:20, instance:Testcases.Smoketest@66a3ffec]" name="CreateWorkAddress" duration-ms="16742" started-at="2019-10-11T17:38:46Z" finished-at="2019-10-11T17:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateWorkAddress -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="69" started-at="2019-10-11T17:39:03Z" finished-at="2019-10-11T17:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateWorkAddress status=SUCCESS method=Smoketest.CreateWorkAddress()[pri:20, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Edit_WorkAddress()[pri:21, instance:Testcases.Smoketest@66a3ffec]" name="Edit_WorkAddress" duration-ms="9803" started-at="2019-10-11T17:39:03Z" finished-at="2019-10-11T17:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_WorkAddress -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="75" started-at="2019-10-11T17:39:13Z" finished-at="2019-10-11T17:39:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_WorkAddress status=SUCCESS method=Smoketest.Edit_WorkAddress()[pri:21, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressCreate_job()[pri:22, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressCreate_job" duration-ms="39307" started-at="2019-10-11T17:39:13Z" finished-at="2019-10-11T17:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressCreate_job -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="67" started-at="2019-10-11T17:39:52Z" finished-at="2019-10-11T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressCreate_job status=SUCCESS method=Smoketest.WorkAddressCreate_job()[pri:22, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressEdit_job()[pri:23, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressEdit_job" duration-ms="28495" started-at="2019-10-11T17:39:53Z" finished-at="2019-10-11T17:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEdit_job -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="58" started-at="2019-10-11T17:40:21Z" finished-at="2019-10-11T17:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEdit_job status=SUCCESS method=Smoketest.WorkAddressEdit_job()[pri:23, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressOfficeTask()[pri:24, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressOfficeTask" duration-ms="14958" started-at="2019-10-11T17:40:21Z" finished-at="2019-10-11T17:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressOfficeTask -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="68" started-at="2019-10-11T17:40:36Z" finished-at="2019-10-11T17:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressOfficeTask status=SUCCESS method=Smoketest.WorkAddressOfficeTask()[pri:24, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressJobReminder()[pri:25, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressJobReminder" duration-ms="15526" started-at="2019-10-11T17:40:36Z" finished-at="2019-10-11T17:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressJobReminder -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="77" started-at="2019-10-11T17:40:52Z" finished-at="2019-10-11T17:40:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressJobReminder status=SUCCESS method=Smoketest.WorkAddressJobReminder()[pri:25, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressEditJobReminder()[pri:26, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressEditJobReminder" duration-ms="10461" started-at="2019-10-11T17:40:52Z" finished-at="2019-10-11T17:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEditJobReminder -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="100" started-at="2019-10-11T17:41:02Z" finished-at="2019-10-11T17:41:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEditJobReminder status=SUCCESS method=Smoketest.WorkAddressEditJobReminder()[pri:26, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="FAIL" signature="WorkAddressAddAttachFile()[pri:27, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressAddAttachFile" duration-ms="18108" started-at="2019-10-11T17:41:02Z" finished-at="2019-10-11T17:41:20Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Cannot run program "D:/image.exe": CreateProcess error=2, The system cannot find the file specified]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Cannot run program "D:/image.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at Testcases.Smoketest.WorkAddressAddAttachFile(Smoketest.java:973)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:386)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddAttachFile -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="541" started-at="2019-10-11T17:41:20Z" finished-at="2019-10-11T17:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddAttachFile status=FAILURE method=Smoketest.WorkAddressAddAttachFile()[pri:27, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_NoBreakDown()[pri:28, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressAddinvoice_NoBreakDown" duration-ms="15065" started-at="2019-10-11T17:41:21Z" finished-at="2019-10-11T17:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="77" started-at="2019-10-11T17:41:36Z" finished-at="2019-10-11T17:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressAddinvoice_NoBreakDown()[pri:28, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressEditinvoice_NoBreakDown()[pri:29, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressEditinvoice_NoBreakDown" duration-ms="17881" started-at="2019-10-11T17:41:36Z" finished-at="2019-10-11T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEditinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="63" started-at="2019-10-11T17:41:54Z" finished-at="2019-10-11T17:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEditinvoice_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressEditinvoice_NoBreakDown()[pri:29, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressView_NoBreakDown()[pri:30, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressView_NoBreakDown" duration-ms="14764" started-at="2019-10-11T17:41:54Z" finished-at="2019-10-11T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressView_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="65" started-at="2019-10-11T17:42:09Z" finished-at="2019-10-11T17:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressView_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressView_NoBreakDown()[pri:30, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressPayment_NoBreakDown()[pri:31, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressPayment_NoBreakDown" duration-ms="9004" started-at="2019-10-11T17:42:09Z" finished-at="2019-10-11T17:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressPayment_NoBreakDown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="67" started-at="2019-10-11T17:42:18Z" finished-at="2019-10-11T17:42:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressPayment_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressPayment_NoBreakDown()[pri:31, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_Breakdownbycategory()[pri:32, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressAddinvoice_Breakdownbycategory" duration-ms="34583" started-at="2019-10-11T17:42:18Z" finished-at="2019-10-11T17:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="80" started-at="2019-10-11T17:42:53Z" finished-at="2019-10-11T17:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.WorkAddressAddinvoice_Breakdownbycategory()[pri:32, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressEditinvoice_Breakdownbycategory()[pri:33, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressEditinvoice_Breakdownbycategory" duration-ms="14301" started-at="2019-10-11T17:42:53Z" finished-at="2019-10-11T17:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEditinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="54" started-at="2019-10-11T17:43:07Z" finished-at="2019-10-11T17:43:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEditinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.WorkAddressEditinvoice_Breakdownbycategory()[pri:33, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressPayment_Breakdownbycategory()[pri:34, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressPayment_Breakdownbycategory" duration-ms="8854" started-at="2019-10-11T17:43:07Z" finished-at="2019-10-11T17:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressPayment_Breakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="66" started-at="2019-10-11T17:43:16Z" finished-at="2019-10-11T17:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressPayment_Breakdownbycategory status=SUCCESS method=Smoketest.WorkAddressPayment_Breakdownbycategory()[pri:34, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_Fullbreakdown()[pri:35, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressAddinvoice_Fullbreakdown" duration-ms="33493" started-at="2019-10-11T17:43:16Z" finished-at="2019-10-11T17:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_Fullbreakdown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="69" started-at="2019-10-11T17:43:49Z" finished-at="2019-10-11T17:43:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_Fullbreakdown status=SUCCESS method=Smoketest.WorkAddressAddinvoice_Fullbreakdown()[pri:35, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressPayment_Fullbreakdown()[pri:36, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressPayment_Fullbreakdown" duration-ms="12960" started-at="2019-10-11T17:43:49Z" finished-at="2019-10-11T17:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressPayment_Fullbreakdown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="72" started-at="2019-10-11T17:44:02Z" finished-at="2019-10-11T17:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressPayment_Fullbreakdown status=SUCCESS method=Smoketest.WorkAddressPayment_Fullbreakdown()[pri:36, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_Fullbreakdownbycategory()[pri:37, instance:Testcases.Smoketest@66a3ffec]" name="WorkAddressAddinvoice_Fullbreakdownbycategory" duration-ms="31801" started-at="2019-10-11T17:44:02Z" finished-at="2019-10-11T17:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_Fullbreakdownbycategory -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="60" started-at="2019-10-11T17:44:34Z" finished-at="2019-10-11T17:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_Fullbreakdownbycategory status=SUCCESS method=Smoketest.WorkAddressAddinvoice_Fullbreakdownbycategory()[pri:37, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="CreateWorkAddressEstimate()[pri:38, instance:Testcases.Smoketest@66a3ffec]" name="CreateWorkAddressEstimate" duration-ms="58667" started-at="2019-10-11T17:44:34Z" finished-at="2019-10-11T17:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateWorkAddressEstimate -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="64" started-at="2019-10-11T17:45:33Z" finished-at="2019-10-11T17:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateWorkAddressEstimate status=SUCCESS method=Smoketest.CreateWorkAddressEstimate()[pri:38, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Diary_NormallEvent()[pri:39, instance:Testcases.Smoketest@66a3ffec]" name="Diary_NormallEvent" duration-ms="18891" started-at="2019-10-11T17:45:33Z" finished-at="2019-10-11T17:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_NormallEvent -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="60" started-at="2019-10-11T17:45:52Z" finished-at="2019-10-11T17:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_NormallEvent status=SUCCESS method=Smoketest.Diary_NormallEvent()[pri:39, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Diary_EstimateEvent()[pri:40, instance:Testcases.Smoketest@66a3ffec]" name="Diary_EstimateEvent" duration-ms="27082" started-at="2019-10-11T17:45:52Z" finished-at="2019-10-11T17:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_EstimateEvent -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="79" started-at="2019-10-11T17:46:19Z" finished-at="2019-10-11T17:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_EstimateEvent status=SUCCESS method=Smoketest.Diary_EstimateEvent()[pri:40, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Diary_JobEvent()[pri:41, instance:Testcases.Smoketest@66a3ffec]" name="Diary_JobEvent" duration-ms="26228" started-at="2019-10-11T17:46:19Z" finished-at="2019-10-11T17:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_JobEvent -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="78" started-at="2019-10-11T17:46:45Z" finished-at="2019-10-11T17:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_JobEvent status=SUCCESS method=Smoketest.Diary_JobEvent()[pri:41, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Diary_JobEventwithnewcustomer()[pri:42, instance:Testcases.Smoketest@66a3ffec]" name="Diary_JobEventwithnewcustomer" duration-ms="37431" started-at="2019-10-11T17:46:45Z" finished-at="2019-10-11T17:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_JobEventwithnewcustomer -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="68" started-at="2019-10-11T17:47:23Z" finished-at="2019-10-11T17:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_JobEventwithnewcustomer status=SUCCESS method=Smoketest.Diary_JobEventwithnewcustomer()[pri:42, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Create_Supplier()[pri:43, instance:Testcases.Smoketest@66a3ffec]" name="Create_Supplier" duration-ms="16652" started-at="2019-10-11T17:47:23Z" finished-at="2019-10-11T17:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Supplier -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="65" started-at="2019-10-11T17:47:40Z" finished-at="2019-10-11T17:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_Supplier status=SUCCESS method=Smoketest.Create_Supplier()[pri:43, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Edit_Supplier()[pri:44, instance:Testcases.Smoketest@66a3ffec]" name="Edit_Supplier" duration-ms="13324" started-at="2019-10-11T17:47:40Z" finished-at="2019-10-11T17:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Supplier -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="61" started-at="2019-10-11T17:47:53Z" finished-at="2019-10-11T17:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_Supplier status=SUCCESS method=Smoketest.Edit_Supplier()[pri:44, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Supplier_po()[pri:45, instance:Testcases.Smoketest@66a3ffec]" name="Supplier_po" duration-ms="19475" started-at="2019-10-11T17:47:53Z" finished-at="2019-10-11T17:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_po -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="64" started-at="2019-10-11T17:48:13Z" finished-at="2019-10-11T17:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_po status=SUCCESS method=Smoketest.Supplier_po()[pri:45, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Supplier_Invoice()[pri:47, instance:Testcases.Smoketest@66a3ffec]" name="Supplier_Invoice" duration-ms="19435" started-at="2019-10-11T17:48:13Z" finished-at="2019-10-11T17:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_Invoice -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="57" started-at="2019-10-11T17:48:32Z" finished-at="2019-10-11T17:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_Invoice status=SUCCESS method=Smoketest.Supplier_Invoice()[pri:47, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Supplier_EditInvoice()[pri:48, instance:Testcases.Smoketest@66a3ffec]" name="Supplier_EditInvoice" duration-ms="19952" started-at="2019-10-11T17:48:32Z" finished-at="2019-10-11T17:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_EditInvoice -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="59" started-at="2019-10-11T17:48:52Z" finished-at="2019-10-11T17:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_EditInvoice status=SUCCESS method=Smoketest.Supplier_EditInvoice()[pri:48, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Supplier_creditnote()[pri:49, instance:Testcases.Smoketest@66a3ffec]" name="Supplier_creditnote" duration-ms="35040" started-at="2019-10-11T17:48:52Z" finished-at="2019-10-11T17:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_creditnote -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="60" started-at="2019-10-11T17:49:27Z" finished-at="2019-10-11T17:49:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_creditnote status=SUCCESS method=Smoketest.Supplier_creditnote()[pri:49, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Create_Company()[pri:50, instance:Testcases.Smoketest@66a3ffec]" name="Create_Company" duration-ms="16823" started-at="2019-10-11T17:49:27Z" finished-at="2019-10-11T17:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Company -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="60" started-at="2019-10-11T17:49:44Z" finished-at="2019-10-11T17:49:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_Company status=SUCCESS method=Smoketest.Create_Company()[pri:50, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Edit_Company()[pri:51, instance:Testcases.Smoketest@66a3ffec]" name="Edit_Company" duration-ms="9440" started-at="2019-10-11T17:49:44Z" finished-at="2019-10-11T17:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Company -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="53" started-at="2019-10-11T17:49:54Z" finished-at="2019-10-11T17:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_Company status=SUCCESS method=Smoketest.Edit_Company()[pri:51, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Create_Companyjob()[pri:52, instance:Testcases.Smoketest@66a3ffec]" name="Create_Companyjob" duration-ms="9122" started-at="2019-10-11T17:49:54Z" finished-at="2019-10-11T17:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Companyjob -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="70" started-at="2019-10-11T17:50:03Z" finished-at="2019-10-11T17:50:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_Companyjob status=SUCCESS method=Smoketest.Create_Companyjob()[pri:52, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Company_WorkAddress()[pri:53, instance:Testcases.Smoketest@66a3ffec]" name="Company_WorkAddress" duration-ms="13684" started-at="2019-10-11T17:50:03Z" finished-at="2019-10-11T17:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Company_WorkAddress -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="76" started-at="2019-10-11T17:50:17Z" finished-at="2019-10-11T17:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Company_WorkAddress status=SUCCESS method=Smoketest.Company_WorkAddress()[pri:53, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SolarSearch()[pri:54, instance:Testcases.Smoketest@66a3ffec]" name="SolarSearch" duration-ms="3297" started-at="2019-10-11T17:50:17Z" finished-at="2019-10-11T17:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SolarSearch -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="51" started-at="2019-10-11T17:50:20Z" finished-at="2019-10-11T17:50:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SolarSearch status=SUCCESS method=Smoketest.SolarSearch()[pri:54, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Customer_AfterSalesCare()[pri:55, instance:Testcases.Smoketest@66a3ffec]" name="Customer_AfterSalesCare" duration-ms="26306" started-at="2019-10-11T17:50:20Z" finished-at="2019-10-11T17:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_AfterSalesCare -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="52" started-at="2019-10-11T17:50:46Z" finished-at="2019-10-11T17:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_AfterSalesCare status=SUCCESS method=Smoketest.Customer_AfterSalesCare()[pri:55, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="service_reminder()[pri:56, instance:Testcases.Smoketest@66a3ffec]" name="service_reminder" duration-ms="34920" started-at="2019-10-11T17:50:46Z" finished-at="2019-10-11T17:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- service_reminder -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="43" started-at="2019-10-11T17:51:21Z" finished-at="2019-10-11T17:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=service_reminder status=SUCCESS method=Smoketest.service_reminder()[pri:56, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Customer_NotesCommunication()[pri:57, instance:Testcases.Smoketest@66a3ffec]" name="Customer_NotesCommunication" duration-ms="19057" started-at="2019-10-11T17:51:21Z" finished-at="2019-10-11T17:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_NotesCommunication -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="61" started-at="2019-10-11T17:51:40Z" finished-at="2019-10-11T17:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_NotesCommunication status=SUCCESS method=Smoketest.Customer_NotesCommunication()[pri:57, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Customer_Createcontact()[pri:58, instance:Testcases.Smoketest@66a3ffec]" name="Customer_Createcontact" duration-ms="9177" started-at="2019-10-11T17:51:40Z" finished-at="2019-10-11T17:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Createcontact -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="62" started-at="2019-10-11T17:51:50Z" finished-at="2019-10-11T17:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_Createcontact status=SUCCESS method=Smoketest.Customer_Createcontact()[pri:58, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="EstimateStatusCheck_accept_TRIAG4316()[pri:59, instance:Testcases.Smoketest@66a3ffec]" name="EstimateStatusCheck_accept_TRIAG4316" duration-ms="182632" started-at="2019-10-11T17:51:50Z" finished-at="2019-10-11T17:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EstimateStatusCheck_accept_TRIAG4316 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="90" started-at="2019-10-11T17:54:52Z" finished-at="2019-10-11T17:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EstimateStatusCheck_accept_TRIAG4316 status=SUCCESS method=Smoketest.EstimateStatusCheck_accept_TRIAG4316()[pri:59, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="EstimateStatusCheck_reject_TRIAG4316()[pri:60, instance:Testcases.Smoketest@66a3ffec]" name="EstimateStatusCheck_reject_TRIAG4316" duration-ms="186147" started-at="2019-10-11T17:54:52Z" finished-at="2019-10-11T17:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EstimateStatusCheck_reject_TRIAG4316 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="teardown" is-config="true" duration-ms="80" started-at="2019-10-11T17:57:58Z" finished-at="2019-10-11T17:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EstimateStatusCheck_reject_TRIAG4316 status=SUCCESS method=Smoketest.EstimateStatusCheck_reject_TRIAG4316()[pri:60, instance:Testcases.Smoketest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Testcases.Smoketest@66a3ffec]" name="endTest" is-config="true" duration-ms="0" started-at="2019-10-11T17:57:59Z" finished-at="2019-10-11T17:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Testcases.Smoketest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

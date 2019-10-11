@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Ranjit\AppData\Local\Temp\testng-eclipse--495270186\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">61 methods, 2 failed,   59 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="AddAttachFile">AddAttachFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressAddAttachFile">WorkAddressAddAttachFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Addinvoice_Breakdownbycategory">Addinvoice_Breakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Addinvoice_Fullbreakdown">Addinvoice_Fullbreakdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Addinvoice_Fullbreakdownbycategory">Addinvoice_Fullbreakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Addinvoice_NoBreakDown">Addinvoice_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Company_WorkAddress">Company_WorkAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="ConvertEstimateToJob">ConvertEstimateToJob</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="CreateWorkAddress">CreateWorkAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="CreateWorkAddressEstimate">CreateWorkAddressEstimate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Create_Company">Create_Company</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Create_Companyjob">Create_Companyjob</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Create_Supplier">Create_Supplier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Create_customer">Create_customer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Create_job">Create_job</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Customer_AfterSalesCare">Customer_AfterSalesCare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Customer_Createcontact">Customer_Createcontact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Customer_NotesCommunication">Customer_NotesCommunication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Diary_EstimateEvent">Diary_EstimateEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Diary_JobEvent">Diary_JobEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Diary_JobEventwithnewcustomer">Diary_JobEventwithnewcustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Diary_NormallEvent">Diary_NormallEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="EditJobReminder">EditJobReminder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Edit_Company">Edit_Company</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Edit_Supplier">Edit_Supplier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Edit_WorkAddress">Edit_WorkAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Edit_customer">Edit_customer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Edit_job">Edit_job</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Editinvoice_Breakdownbycategory">Editinvoice_Breakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Editinvoice_NoBreakDown">Editinvoice_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="EstimateStatusCheck_accept_TRIAG4316">EstimateStatusCheck_accept_TRIAG4316</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="EstimateStatusCheck_reject_TRIAG4316">EstimateStatusCheck_reject_TRIAG4316</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="JobReminder">JobReminder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="OfficeTask">OfficeTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Payment_Breakdownbycategory">Payment_Breakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Payment_Fullbreakdown">Payment_Fullbreakdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Payment_NoBreakDown">Payment_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="RejectEstimate">RejectEstimate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="SolarSearch">SolarSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Supplier_EditInvoice">Supplier_EditInvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Supplier_Invoice">Supplier_Invoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Supplier_creditnote">Supplier_creditnote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="Supplier_po">Supplier_po</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="View_NoBreakDown">View_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressAddinvoice_Breakdownbycategory">WorkAddressAddinvoice_Breakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressAddinvoice_Fullbreakdown">WorkAddressAddinvoice_Fullbreakdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressAddinvoice_Fullbreakdownbycategory">WorkAddressAddinvoice_Fullbreakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressAddinvoice_NoBreakDown">WorkAddressAddinvoice_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressCreate_job">WorkAddressCreate_job</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressEditJobReminder">WorkAddressEditJobReminder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressEdit_job">WorkAddressEdit_job</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressEditinvoice_Breakdownbycategory">WorkAddressEditinvoice_Breakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressEditinvoice_NoBreakDown">WorkAddressEditinvoice_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressJobReminder">WorkAddressJobReminder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressOfficeTask">WorkAddressOfficeTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressPayment_Breakdownbycategory">WorkAddressPayment_Breakdownbycategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressPayment_Fullbreakdown">WorkAddressPayment_Fullbreakdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressPayment_NoBreakDown">WorkAddressPayment_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="WorkAddressView_NoBreakDown">WorkAddressView_NoBreakDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testcases.Smoketest" hash-for-method="service_reminder">service_reminder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Testcases.Smoketest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddAttachFile">
+                  </a> <!-- AddAttachFile -->
+                  <span class="method-name">AddAttachFile</span>
+                  <div class="stack-trace">java.io.IOException: Cannot run program &quot;D:/image.exe&quot;: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at Testcases.Smoketest.AddAttachFile(Smoketest.java:279)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:386)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 28 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressAddAttachFile">
+                  </a> <!-- WorkAddressAddAttachFile -->
+                  <span class="method-name">WorkAddressAddAttachFile</span>
+                  <div class="stack-trace">java.io.IOException: Cannot run program &quot;D:/image.exe&quot;: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at Testcases.Smoketest.WorkAddressAddAttachFile(Smoketest.java:973)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:386)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 28 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.Smoketest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addinvoice_Breakdownbycategory">
+                  </a> <!-- Addinvoice_Breakdownbycategory -->
+                  <span class="method-name">Addinvoice_Breakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addinvoice_Fullbreakdown">
+                  </a> <!-- Addinvoice_Fullbreakdown -->
+                  <span class="method-name">Addinvoice_Fullbreakdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addinvoice_Fullbreakdownbycategory">
+                  </a> <!-- Addinvoice_Fullbreakdownbycategory -->
+                  <span class="method-name">Addinvoice_Fullbreakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addinvoice_NoBreakDown">
+                  </a> <!-- Addinvoice_NoBreakDown -->
+                  <span class="method-name">Addinvoice_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Company_WorkAddress">
+                  </a> <!-- Company_WorkAddress -->
+                  <span class="method-name">Company_WorkAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConvertEstimateToJob">
+                  </a> <!-- ConvertEstimateToJob -->
+                  <span class="method-name">ConvertEstimateToJob</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateWorkAddress">
+                  </a> <!-- CreateWorkAddress -->
+                  <span class="method-name">CreateWorkAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateWorkAddressEstimate">
+                  </a> <!-- CreateWorkAddressEstimate -->
+                  <span class="method-name">CreateWorkAddressEstimate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Company">
+                  </a> <!-- Create_Company -->
+                  <span class="method-name">Create_Company</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Companyjob">
+                  </a> <!-- Create_Companyjob -->
+                  <span class="method-name">Create_Companyjob</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Supplier">
+                  </a> <!-- Create_Supplier -->
+                  <span class="method-name">Create_Supplier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_customer">
+                  </a> <!-- Create_customer -->
+                  <span class="method-name">Create_customer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_job">
+                  </a> <!-- Create_job -->
+                  <span class="method-name">Create_job</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_AfterSalesCare">
+                  </a> <!-- Customer_AfterSalesCare -->
+                  <span class="method-name">Customer_AfterSalesCare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_Createcontact">
+                  </a> <!-- Customer_Createcontact -->
+                  <span class="method-name">Customer_Createcontact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_NotesCommunication">
+                  </a> <!-- Customer_NotesCommunication -->
+                  <span class="method-name">Customer_NotesCommunication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Diary_EstimateEvent">
+                  </a> <!-- Diary_EstimateEvent -->
+                  <span class="method-name">Diary_EstimateEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Diary_JobEvent">
+                  </a> <!-- Diary_JobEvent -->
+                  <span class="method-name">Diary_JobEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Diary_JobEventwithnewcustomer">
+                  </a> <!-- Diary_JobEventwithnewcustomer -->
+                  <span class="method-name">Diary_JobEventwithnewcustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Diary_NormallEvent">
+                  </a> <!-- Diary_NormallEvent -->
+                  <span class="method-name">Diary_NormallEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditJobReminder">
+                  </a> <!-- EditJobReminder -->
+                  <span class="method-name">EditJobReminder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_Company">
+                  </a> <!-- Edit_Company -->
+                  <span class="method-name">Edit_Company</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_Supplier">
+                  </a> <!-- Edit_Supplier -->
+                  <span class="method-name">Edit_Supplier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_WorkAddress">
+                  </a> <!-- Edit_WorkAddress -->
+                  <span class="method-name">Edit_WorkAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_customer">
+                  </a> <!-- Edit_customer -->
+                  <span class="method-name">Edit_customer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_job">
+                  </a> <!-- Edit_job -->
+                  <span class="method-name">Edit_job</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editinvoice_Breakdownbycategory">
+                  </a> <!-- Editinvoice_Breakdownbycategory -->
+                  <span class="method-name">Editinvoice_Breakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editinvoice_NoBreakDown">
+                  </a> <!-- Editinvoice_NoBreakDown -->
+                  <span class="method-name">Editinvoice_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EstimateStatusCheck_accept_TRIAG4316">
+                  </a> <!-- EstimateStatusCheck_accept_TRIAG4316 -->
+                  <span class="method-name">EstimateStatusCheck_accept_TRIAG4316</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EstimateStatusCheck_reject_TRIAG4316">
+                  </a> <!-- EstimateStatusCheck_reject_TRIAG4316 -->
+                  <span class="method-name">EstimateStatusCheck_reject_TRIAG4316</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JobReminder">
+                  </a> <!-- JobReminder -->
+                  <span class="method-name">JobReminder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OfficeTask">
+                  </a> <!-- OfficeTask -->
+                  <span class="method-name">OfficeTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Payment_Breakdownbycategory">
+                  </a> <!-- Payment_Breakdownbycategory -->
+                  <span class="method-name">Payment_Breakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Payment_Fullbreakdown">
+                  </a> <!-- Payment_Fullbreakdown -->
+                  <span class="method-name">Payment_Fullbreakdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Payment_NoBreakDown">
+                  </a> <!-- Payment_NoBreakDown -->
+                  <span class="method-name">Payment_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RejectEstimate">
+                  </a> <!-- RejectEstimate -->
+                  <span class="method-name">RejectEstimate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SolarSearch">
+                  </a> <!-- SolarSearch -->
+                  <span class="method-name">SolarSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Supplier_EditInvoice">
+                  </a> <!-- Supplier_EditInvoice -->
+                  <span class="method-name">Supplier_EditInvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Supplier_Invoice">
+                  </a> <!-- Supplier_Invoice -->
+                  <span class="method-name">Supplier_Invoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Supplier_creditnote">
+                  </a> <!-- Supplier_creditnote -->
+                  <span class="method-name">Supplier_creditnote</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Supplier_po">
+                  </a> <!-- Supplier_po -->
+                  <span class="method-name">Supplier_po</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="View_NoBreakDown">
+                  </a> <!-- View_NoBreakDown -->
+                  <span class="method-name">View_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressAddinvoice_Breakdownbycategory">
+                  </a> <!-- WorkAddressAddinvoice_Breakdownbycategory -->
+                  <span class="method-name">WorkAddressAddinvoice_Breakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressAddinvoice_Fullbreakdown">
+                  </a> <!-- WorkAddressAddinvoice_Fullbreakdown -->
+                  <span class="method-name">WorkAddressAddinvoice_Fullbreakdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressAddinvoice_Fullbreakdownbycategory">
+                  </a> <!-- WorkAddressAddinvoice_Fullbreakdownbycategory -->
+                  <span class="method-name">WorkAddressAddinvoice_Fullbreakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressAddinvoice_NoBreakDown">
+                  </a> <!-- WorkAddressAddinvoice_NoBreakDown -->
+                  <span class="method-name">WorkAddressAddinvoice_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressCreate_job">
+                  </a> <!-- WorkAddressCreate_job -->
+                  <span class="method-name">WorkAddressCreate_job</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressEditJobReminder">
+                  </a> <!-- WorkAddressEditJobReminder -->
+                  <span class="method-name">WorkAddressEditJobReminder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressEdit_job">
+                  </a> <!-- WorkAddressEdit_job -->
+                  <span class="method-name">WorkAddressEdit_job</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressEditinvoice_Breakdownbycategory">
+                  </a> <!-- WorkAddressEditinvoice_Breakdownbycategory -->
+                  <span class="method-name">WorkAddressEditinvoice_Breakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressEditinvoice_NoBreakDown">
+                  </a> <!-- WorkAddressEditinvoice_NoBreakDown -->
+                  <span class="method-name">WorkAddressEditinvoice_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressJobReminder">
+                  </a> <!-- WorkAddressJobReminder -->
+                  <span class="method-name">WorkAddressJobReminder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressOfficeTask">
+                  </a> <!-- WorkAddressOfficeTask -->
+                  <span class="method-name">WorkAddressOfficeTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressPayment_Breakdownbycategory">
+                  </a> <!-- WorkAddressPayment_Breakdownbycategory -->
+                  <span class="method-name">WorkAddressPayment_Breakdownbycategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressPayment_Fullbreakdown">
+                  </a> <!-- WorkAddressPayment_Fullbreakdown -->
+                  <span class="method-name">WorkAddressPayment_Fullbreakdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressPayment_NoBreakDown">
+                  </a> <!-- WorkAddressPayment_NoBreakDown -->
+                  <span class="method-name">WorkAddressPayment_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WorkAddressView_NoBreakDown">
+                  </a> <!-- WorkAddressView_NoBreakDown -->
+                  <span class="method-name">WorkAddressView_NoBreakDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="service_reminder">
+                  </a> <!-- service_reminder -->
+                  <span class="method-name">service_reminder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ranjit\AppData\Local\Temp\testng-eclipse--495270186\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.Smoketest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(61);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EstimateStatusCheck_reject_TRIAG4316')
+data.setCell(0, 2, 'Testcases.Smoketest')
+data.setCell(0, 3, 186147);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EstimateStatusCheck_accept_TRIAG4316')
+data.setCell(1, 2, 'Testcases.Smoketest')
+data.setCell(1, 3, 182632);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'RejectEstimate')
+data.setCell(2, 2, 'Testcases.Smoketest')
+data.setCell(2, 3, 71230);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ConvertEstimateToJob')
+data.setCell(3, 2, 'Testcases.Smoketest')
+data.setCell(3, 3, 67205);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CreateWorkAddressEstimate')
+data.setCell(4, 2, 'Testcases.Smoketest')
+data.setCell(4, 3, 58667);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'WorkAddressCreate_job')
+data.setCell(5, 2, 'Testcases.Smoketest')
+data.setCell(5, 3, 39307);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Diary_JobEventwithnewcustomer')
+data.setCell(6, 2, 'Testcases.Smoketest')
+data.setCell(6, 3, 37431);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Supplier_creditnote')
+data.setCell(7, 2, 'Testcases.Smoketest')
+data.setCell(7, 3, 35040);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'service_reminder')
+data.setCell(8, 2, 'Testcases.Smoketest')
+data.setCell(8, 3, 34920);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'WorkAddressAddinvoice_Breakdownbycategory')
+data.setCell(9, 2, 'Testcases.Smoketest')
+data.setCell(9, 3, 34583);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'WorkAddressAddinvoice_Fullbreakdown')
+data.setCell(10, 2, 'Testcases.Smoketest')
+data.setCell(10, 3, 33493);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Create_job')
+data.setCell(11, 2, 'Testcases.Smoketest')
+data.setCell(11, 3, 33176);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Addinvoice_Fullbreakdown')
+data.setCell(12, 2, 'Testcases.Smoketest')
+data.setCell(12, 3, 32517);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'WorkAddressAddinvoice_Fullbreakdownbycategory')
+data.setCell(13, 2, 'Testcases.Smoketest')
+data.setCell(13, 3, 31801);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Addinvoice_Fullbreakdownbycategory')
+data.setCell(14, 2, 'Testcases.Smoketest')
+data.setCell(14, 3, 31711);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Addinvoice_Breakdownbycategory')
+data.setCell(15, 2, 'Testcases.Smoketest')
+data.setCell(15, 3, 31507);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'WorkAddressEdit_job')
+data.setCell(16, 2, 'Testcases.Smoketest')
+data.setCell(16, 3, 28495);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Diary_EstimateEvent')
+data.setCell(17, 2, 'Testcases.Smoketest')
+data.setCell(17, 3, 27082);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Customer_AfterSalesCare')
+data.setCell(18, 2, 'Testcases.Smoketest')
+data.setCell(18, 3, 26306);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Diary_JobEvent')
+data.setCell(19, 2, 'Testcases.Smoketest')
+data.setCell(19, 3, 26228);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Edit_job')
+data.setCell(20, 2, 'Testcases.Smoketest')
+data.setCell(20, 3, 23006);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Supplier_EditInvoice')
+data.setCell(21, 2, 'Testcases.Smoketest')
+data.setCell(21, 3, 19952);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Supplier_po')
+data.setCell(22, 2, 'Testcases.Smoketest')
+data.setCell(22, 3, 19475);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Supplier_Invoice')
+data.setCell(23, 2, 'Testcases.Smoketest')
+data.setCell(23, 3, 19435);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Customer_NotesCommunication')
+data.setCell(24, 2, 'Testcases.Smoketest')
+data.setCell(24, 3, 19057);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Diary_NormallEvent')
+data.setCell(25, 2, 'Testcases.Smoketest')
+data.setCell(25, 3, 18891);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Editinvoice_NoBreakDown')
+data.setCell(26, 2, 'Testcases.Smoketest')
+data.setCell(26, 3, 18729);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'AddAttachFile')
+data.setCell(27, 2, 'Testcases.Smoketest')
+data.setCell(27, 3, 18168);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'WorkAddressAddAttachFile')
+data.setCell(28, 2, 'Testcases.Smoketest')
+data.setCell(28, 3, 18108);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'WorkAddressEditinvoice_NoBreakDown')
+data.setCell(29, 2, 'Testcases.Smoketest')
+data.setCell(29, 3, 17881);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Create_customer')
+data.setCell(30, 2, 'Testcases.Smoketest')
+data.setCell(30, 3, 17510);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Create_Company')
+data.setCell(31, 2, 'Testcases.Smoketest')
+data.setCell(31, 3, 16823);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'CreateWorkAddress')
+data.setCell(32, 2, 'Testcases.Smoketest')
+data.setCell(32, 3, 16742);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Create_Supplier')
+data.setCell(33, 2, 'Testcases.Smoketest')
+data.setCell(33, 3, 16652);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'OfficeTask')
+data.setCell(34, 2, 'Testcases.Smoketest')
+data.setCell(34, 3, 16308);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'WorkAddressJobReminder')
+data.setCell(35, 2, 'Testcases.Smoketest')
+data.setCell(35, 3, 15526);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'WorkAddressAddinvoice_NoBreakDown')
+data.setCell(36, 2, 'Testcases.Smoketest')
+data.setCell(36, 3, 15065);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'WorkAddressOfficeTask')
+data.setCell(37, 2, 'Testcases.Smoketest')
+data.setCell(37, 3, 14958);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Addinvoice_NoBreakDown')
+data.setCell(38, 2, 'Testcases.Smoketest')
+data.setCell(38, 3, 14883);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'View_NoBreakDown')
+data.setCell(39, 2, 'Testcases.Smoketest')
+data.setCell(39, 3, 14797);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'WorkAddressView_NoBreakDown')
+data.setCell(40, 2, 'Testcases.Smoketest')
+data.setCell(40, 3, 14764);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Editinvoice_Breakdownbycategory')
+data.setCell(41, 2, 'Testcases.Smoketest')
+data.setCell(41, 3, 14345);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'WorkAddressEditinvoice_Breakdownbycategory')
+data.setCell(42, 2, 'Testcases.Smoketest')
+data.setCell(42, 3, 14301);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Company_WorkAddress')
+data.setCell(43, 2, 'Testcases.Smoketest')
+data.setCell(43, 3, 13684);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'JobReminder')
+data.setCell(44, 2, 'Testcases.Smoketest')
+data.setCell(44, 3, 13476);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Edit_Supplier')
+data.setCell(45, 2, 'Testcases.Smoketest')
+data.setCell(45, 3, 13324);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'WorkAddressPayment_Fullbreakdown')
+data.setCell(46, 2, 'Testcases.Smoketest')
+data.setCell(46, 3, 12960);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Payment_Fullbreakdown')
+data.setCell(47, 2, 'Testcases.Smoketest')
+data.setCell(47, 3, 12421);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'Edit_customer')
+data.setCell(48, 2, 'Testcases.Smoketest')
+data.setCell(48, 3, 11858);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'login')
+data.setCell(49, 2, 'Testcases.Smoketest')
+data.setCell(49, 3, 10592);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'WorkAddressEditJobReminder')
+data.setCell(50, 2, 'Testcases.Smoketest')
+data.setCell(50, 3, 10461);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'EditJobReminder')
+data.setCell(51, 2, 'Testcases.Smoketest')
+data.setCell(51, 3, 10282);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'Edit_WorkAddress')
+data.setCell(52, 2, 'Testcases.Smoketest')
+data.setCell(52, 3, 9803);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'Edit_Company')
+data.setCell(53, 2, 'Testcases.Smoketest')
+data.setCell(53, 3, 9440);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'Customer_Createcontact')
+data.setCell(54, 2, 'Testcases.Smoketest')
+data.setCell(54, 3, 9177);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'Create_Companyjob')
+data.setCell(55, 2, 'Testcases.Smoketest')
+data.setCell(55, 3, 9122);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'WorkAddressPayment_NoBreakDown')
+data.setCell(56, 2, 'Testcases.Smoketest')
+data.setCell(56, 3, 9004);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'Payment_NoBreakDown')
+data.setCell(57, 2, 'Testcases.Smoketest')
+data.setCell(57, 3, 8971);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'Payment_Breakdownbycategory')
+data.setCell(58, 2, 'Testcases.Smoketest')
+data.setCell(58, 3, 8883);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'WorkAddressPayment_Breakdownbycategory')
+data.setCell(59, 2, 'Testcases.Smoketest')
+data.setCell(59, 3, 8854);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'SolarSearch')
+data.setCell(60, 2, 'Testcases.Smoketest')
+data.setCell(60, 3, 3297);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Smoketest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">startup</span>
+                <span class="method-start">267 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">12252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=login status=SUCCESS method=Smoketest.login()[pri:0, instance:Testcases.Smoketest@6...)</span>
+                <span class="method-start">22850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Create_customer</span>
+                <span class="method-start">23351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Create_customer status=SUCCESS method=Smoketest.Create_customer()[pri:1, instance:T...)</span>
+                <span class="method-start">40863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Edit_customer</span>
+                <span class="method-start">40954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Edit_customer status=SUCCESS method=Smoketest.Edit_customer()[pri:2, instance:Testc...)</span>
+                <span class="method-start">52815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Create_job</span>
+                <span class="method-start">52902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Create_job status=SUCCESS method=Smoketest.Create_job()[pri:3, instance:Testcases.S...)</span>
+                <span class="method-start">86080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Edit_job</span>
+                <span class="method-start">86166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Edit_job status=SUCCESS method=Smoketest.Edit_job()[pri:4, instance:Testcases.Smoke...)</span>
+                <span class="method-start">109173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OfficeTask</span>
+                <span class="method-start">109244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=OfficeTask status=SUCCESS method=Smoketest.OfficeTask()[pri:5, instance:Testcases.S...)</span>
+                <span class="method-start">125554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">JobReminder</span>
+                <span class="method-start">125655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=JobReminder status=SUCCESS method=Smoketest.JobReminder()[pri:6, instance:Testcases...)</span>
+                <span class="method-start">139133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EditJobReminder</span>
+                <span class="method-start">139206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=EditJobReminder status=SUCCESS method=Smoketest.EditJobReminder()[pri:7, instance:T...)</span>
+                <span class="method-start">149489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddAttachFile</span>
+                <span class="method-start">149577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=AddAttachFile status=FAILURE method=Smoketest.AddAttachFile()[pri:8, instance:Testc...)</span>
+                <span class="method-start">167756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Addinvoice_NoBreakDown</span>
+                <span class="method-start">168958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Addinvoice_NoBreakDown status=SUCCESS method=Smoketest.Addinvoice_NoBreakDown()[pri...)</span>
+                <span class="method-start">183843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Editinvoice_NoBreakDown</span>
+                <span class="method-start">183911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Editinvoice_NoBreakDown status=SUCCESS method=Smoketest.Editinvoice_NoBreakDown()[p...)</span>
+                <span class="method-start">202641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">View_NoBreakDown</span>
+                <span class="method-start">202719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=View_NoBreakDown status=SUCCESS method=Smoketest.View_NoBreakDown()[pri:11, instanc...)</span>
+                <span class="method-start">217517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Payment_NoBreakDown</span>
+                <span class="method-start">217646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Payment_NoBreakDown status=SUCCESS method=Smoketest.Payment_NoBreakDown()[pri:12, i...)</span>
+                <span class="method-start">226618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Addinvoice_Breakdownbycategory</span>
+                <span class="method-start">226699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Addinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.Addinvoice_Breakdown...)</span>
+                <span class="method-start">258207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Editinvoice_Breakdownbycategory</span>
+                <span class="method-start">258293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Editinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.Editinvoice_Breakdo...)</span>
+                <span class="method-start">272639 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Payment_Breakdownbycategory</span>
+                <span class="method-start">272723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Payment_Breakdownbycategory status=SUCCESS method=Smoketest.Payment_Breakdownbycate...)</span>
+                <span class="method-start">281607 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Addinvoice_Fullbreakdown</span>
+                <span class="method-start">281691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Addinvoice_Fullbreakdown status=SUCCESS method=Smoketest.Addinvoice_Fullbreakdown()...)</span>
+                <span class="method-start">314209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Payment_Fullbreakdown</span>
+                <span class="method-start">314285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Payment_Fullbreakdown status=SUCCESS method=Smoketest.Payment_Fullbreakdown()[pri:1...)</span>
+                <span class="method-start">326707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Addinvoice_Fullbreakdownbycategory</span>
+                <span class="method-start">326789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Addinvoice_Fullbreakdownbycategory status=SUCCESS method=Smoketest.Addinvoice_Fullb...)</span>
+                <span class="method-start">358501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">RejectEstimate</span>
+                <span class="method-start">358571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=RejectEstimate status=SUCCESS method=Smoketest.RejectEstimate()[pri:18, instance:Te...)</span>
+                <span class="method-start">429802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ConvertEstimateToJob</span>
+                <span class="method-start">429900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=ConvertEstimateToJob status=SUCCESS method=Smoketest.ConvertEstimateToJob()[pri:19,...)</span>
+                <span class="method-start">497106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CreateWorkAddress</span>
+                <span class="method-start">497184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=CreateWorkAddress status=SUCCESS method=Smoketest.CreateWorkAddress()[pri:20, insta...)</span>
+                <span class="method-start">513927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Edit_WorkAddress</span>
+                <span class="method-start">513996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Edit_WorkAddress status=SUCCESS method=Smoketest.Edit_WorkAddress()[pri:21, instanc...)</span>
+                <span class="method-start">523800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressCreate_job</span>
+                <span class="method-start">523875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressCreate_job status=SUCCESS method=Smoketest.WorkAddressCreate_job()[pri:2...)</span>
+                <span class="method-start">563184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressEdit_job</span>
+                <span class="method-start">563252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressEdit_job status=SUCCESS method=Smoketest.WorkAddressEdit_job()[pri:23, i...)</span>
+                <span class="method-start">591748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressOfficeTask</span>
+                <span class="method-start">591806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressOfficeTask status=SUCCESS method=Smoketest.WorkAddressOfficeTask()[pri:2...)</span>
+                <span class="method-start">606765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressJobReminder</span>
+                <span class="method-start">606834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressJobReminder status=SUCCESS method=Smoketest.WorkAddressJobReminder()[pri...)</span>
+                <span class="method-start">622361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressEditJobReminder</span>
+                <span class="method-start">622439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressEditJobReminder status=SUCCESS method=Smoketest.WorkAddressEditJobRemind...)</span>
+                <span class="method-start">632901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">WorkAddressAddAttachFile</span>
+                <span class="method-start">633001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressAddAttachFile status=FAILURE method=Smoketest.WorkAddressAddAttachFile()...)</span>
+                <span class="method-start">651112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressAddinvoice_NoBreakDown</span>
+                <span class="method-start">651654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressAddinvoice_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressAddinv...)</span>
+                <span class="method-start">666720 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressEditinvoice_NoBreakDown</span>
+                <span class="method-start">666797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressEditinvoice_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressEditi...)</span>
+                <span class="method-start">684680 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressView_NoBreakDown</span>
+                <span class="method-start">684744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressView_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressView_NoBreak...)</span>
+                <span class="method-start">699509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressPayment_NoBreakDown</span>
+                <span class="method-start">699575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressPayment_NoBreakDown status=SUCCESS method=Smoketest.WorkAddressPayment_N...)</span>
+                <span class="method-start">708580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressAddinvoice_Breakdownbycategory</span>
+                <span class="method-start">708647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressAddinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.WorkAddre...)</span>
+                <span class="method-start">743231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressEditinvoice_Breakdownbycategory</span>
+                <span class="method-start">743312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressEditinvoice_Breakdownbycategory status=SUCCESS method=Smoketest.WorkAddr...)</span>
+                <span class="method-start">757614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressPayment_Breakdownbycategory</span>
+                <span class="method-start">757668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressPayment_Breakdownbycategory status=SUCCESS method=Smoketest.WorkAddressP...)</span>
+                <span class="method-start">766523 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressAddinvoice_Fullbreakdown</span>
+                <span class="method-start">766589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressAddinvoice_Fullbreakdown status=SUCCESS method=Smoketest.WorkAddressAddi...)</span>
+                <span class="method-start">800083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressPayment_Fullbreakdown</span>
+                <span class="method-start">800152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressPayment_Fullbreakdown status=SUCCESS method=Smoketest.WorkAddressPayment...)</span>
+                <span class="method-start">813113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WorkAddressAddinvoice_Fullbreakdownbycategory</span>
+                <span class="method-start">813185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=WorkAddressAddinvoice_Fullbreakdownbycategory status=SUCCESS method=Smoketest.WorkA...)</span>
+                <span class="method-start">844987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CreateWorkAddressEstimate</span>
+                <span class="method-start">845047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=CreateWorkAddressEstimate status=SUCCESS method=Smoketest.CreateWorkAddressEstimate...)</span>
+                <span class="method-start">903715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Diary_NormallEvent</span>
+                <span class="method-start">903779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Diary_NormallEvent status=SUCCESS method=Smoketest.Diary_NormallEvent()[pri:39, ins...)</span>
+                <span class="method-start">922671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Diary_EstimateEvent</span>
+                <span class="method-start">922732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Diary_EstimateEvent status=SUCCESS method=Smoketest.Diary_EstimateEvent()[pri:40, i...)</span>
+                <span class="method-start">949815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Diary_JobEvent</span>
+                <span class="method-start">949894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Diary_JobEvent status=SUCCESS method=Smoketest.Diary_JobEvent()[pri:41, instance:Te...)</span>
+                <span class="method-start">976123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Diary_JobEventwithnewcustomer</span>
+                <span class="method-start">976201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Diary_JobEventwithnewcustomer status=SUCCESS method=Smoketest.Diary_JobEventwithnew...)</span>
+                <span class="method-start">1013633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Create_Supplier</span>
+                <span class="method-start">1013701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Create_Supplier status=SUCCESS method=Smoketest.Create_Supplier()[pri:43, instance:...)</span>
+                <span class="method-start">1030354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Edit_Supplier</span>
+                <span class="method-start">1030420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Edit_Supplier status=SUCCESS method=Smoketest.Edit_Supplier()[pri:44, instance:Test...)</span>
+                <span class="method-start">1043745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Supplier_po</span>
+                <span class="method-start">1043806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Supplier_po status=SUCCESS method=Smoketest.Supplier_po()[pri:45, instance:Testcase...)</span>
+                <span class="method-start">1063282 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Supplier_Invoice</span>
+                <span class="method-start">1063346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Supplier_Invoice status=SUCCESS method=Smoketest.Supplier_Invoice()[pri:47, instanc...)</span>
+                <span class="method-start">1082781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Supplier_EditInvoice</span>
+                <span class="method-start">1082839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Supplier_EditInvoice status=SUCCESS method=Smoketest.Supplier_EditInvoice()[pri:48,...)</span>
+                <span class="method-start">1102791 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Supplier_creditnote</span>
+                <span class="method-start">1102850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Supplier_creditnote status=SUCCESS method=Smoketest.Supplier_creditnote()[pri:49, i...)</span>
+                <span class="method-start">1137891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Create_Company</span>
+                <span class="method-start">1137951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Create_Company status=SUCCESS method=Smoketest.Create_Company()[pri:50, instance:Te...)</span>
+                <span class="method-start">1154775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Edit_Company</span>
+                <span class="method-start">1154835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Edit_Company status=SUCCESS method=Smoketest.Edit_Company()[pri:51, instance:Testca...)</span>
+                <span class="method-start">1164276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Create_Companyjob</span>
+                <span class="method-start">1164329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Create_Companyjob status=SUCCESS method=Smoketest.Create_Companyjob()[pri:52, insta...)</span>
+                <span class="method-start">1173452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Company_WorkAddress</span>
+                <span class="method-start">1173522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Company_WorkAddress status=SUCCESS method=Smoketest.Company_WorkAddress()[pri:53, i...)</span>
+                <span class="method-start">1187206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SolarSearch</span>
+                <span class="method-start">1187282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=SolarSearch status=SUCCESS method=Smoketest.SolarSearch()[pri:54, instance:Testcase...)</span>
+                <span class="method-start">1190580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Customer_AfterSalesCare</span>
+                <span class="method-start">1190631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Customer_AfterSalesCare status=SUCCESS method=Smoketest.Customer_AfterSalesCare()[p...)</span>
+                <span class="method-start">1216938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">service_reminder</span>
+                <span class="method-start">1216990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=service_reminder status=SUCCESS method=Smoketest.service_reminder()[pri:56, instanc...)</span>
+                <span class="method-start">1251910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Customer_NotesCommunication</span>
+                <span class="method-start">1251954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Customer_NotesCommunication status=SUCCESS method=Smoketest.Customer_NotesCommunica...)</span>
+                <span class="method-start">1271012 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Customer_Createcontact</span>
+                <span class="method-start">1271073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=Customer_Createcontact status=SUCCESS method=Smoketest.Customer_Createcontact()[pri...)</span>
+                <span class="method-start">1280250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EstimateStatusCheck_accept_TRIAG4316</span>
+                <span class="method-start">1280312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=EstimateStatusCheck_accept_TRIAG4316 status=SUCCESS method=Smoketest.EstimateStatus...)</span>
+                <span class="method-start">1462945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EstimateStatusCheck_reject_TRIAG4316</span>
+                <span class="method-start">1463035 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=EstimateStatusCheck_reject_TRIAG4316 status=SUCCESS method=Smoketest.EstimateStatus...)</span>
+                <span class="method-start">1649184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">1649264 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
